@@ -1,0 +1,19 @@
+﻿Variable Name,Clean Variable Name,Variable Description,Measurement Unit,Data Source
+geoid,GEOID,Census tract GEOID,Character,2017-2021 American Community Survey
+state_name,State Name,Full State Name,Character,2017-2021 American Community Survey
+county_name,County Name,Full County Name,Character,2017-2021 American Community Survey
+index_value,Total Index (Z-Scored Percentile),"Z-Score of weighted sum of housing, income, and household characteristics subindex values",Percentile value,Composite of sources below
+housing_subindex_value,Housing Subindex (Z-Scored Percentile),"Z-score of average of median_monthly_housing_cost, percent_renter_occ_units, percent_renter_occ_units_multi",Percentile value,Composite of sources below
+income_subindex_value,Income Subindex (Z-Scored Percentile),Z-score of average of percent_cost_burdened_renters and percent_eli_renters,Percentile value,Composite of sources below
+hh_chars_subindex_value,Household Characteristics Subindex (Z-Scored Percentile),"Z-score of average of avg_renter_hh_size, percent_black, percent_asian, percent_hispanic, percent_other",Percentile value,Composite of sources below
+median_monthly_housing_cost,Median Monthly Housing Cost,Median monthly housing cost of all occupied housing units with monthly housing costs,Dollars,"2017-2021 American Community Survey, table B25105"
+percent_renter_occ_units,% Renter-Occupied Units,Share of all occupied units that are occupied by renters,Percent,"2017-2021 American Community Survey, table B25003"
+percent_renter_occ_units_multi,% Renter-Occupied Units in Multi-Unit Structures,Share of all renter-occupied units that are in structures with more than one unit,Percent,"2017-2021 American Community Survey, table B25032"
+percent_cost_burdened_renters,% Cost-Burdened Renter Households,"Share of households whose annual incomes are less than $35,000 and pay 50 percent of more of their incomes in gross rent",Percent,"2017-2021 American Community Survey, table B25074"
+percent_eli_renters,% Extremely-Low Income Renters,Share of all renter households with incomes at or below 30 percent of the HUD area median family income,Percent,"2015-2019 Comprehensive Housing Affordability Strategy, table 8"
+avg_renter_hh_size,Average Renter Household Size,Number of people in renter households divided by the number of renter households,Numeric,"2017-2021 American Community Survey, table B25010"
+percent_black,% Black,Share of individuals that identify as African American or Black and do not identify as Hispanic or Latine,Percent,"2017-2021 American Community Survey, table B03002"
+percent_asian,% Asian,Share of individuals that identify as Asian and do not identify as Hispanic or Latine,Percent,"2017-2021 American Community Survey, table B03002"
+percent_latine,% Hispanic or Latine,"Share of individuals that identify as Hispanic or Latine, regardless of race",Percent,"2017-2021 American Community Survey, table B03002"
+percent_other,% Other,"Share of individuals that identify as American Indian or Alaskan Native, Pacific Islander, or Multiracial and do not identify as Hispanic or Latine",Percent,"2017-2021 American Community Survey, table B03002"
+num_eli_renters,Number of Extremely-Low Income Renters,Number of renter households with incomes at or below 30 percent of the HUD area median family income (NOTE: not included in final index; used to exclude census tracts with zero ELI renters from index),Numeric,"2015-2019 Comprehensive Housing Affordability Strategy, table 8"
